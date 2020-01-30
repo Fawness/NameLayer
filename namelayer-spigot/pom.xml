@@ -11,7 +11,6 @@
   </parent>
 
   <artifactId>namelayer-spigot</artifactId>
-  <version>1.0.0</version>
   <packaging>jar</packaging>
 
   <dependencies>
@@ -23,10 +22,10 @@
 
     <!-- Spigot -->
     <dependency>
-      <groupId>org.spigotmc</groupId>
-      <artifactId>spigot-api</artifactId>
-      <version>1.12.2-R0.1-SNAPSHOT</version>
-      <scope>provided</scope>
+           <groupId>org.spigotmc</groupId>
+           <artifactId>spigot-api</artifactId>
+           <version>1.15.1-R0.1-SNAPSHOT</version>
+           <scope>provided</scope>
     </dependency>
 
     <!-- Civcraft -->

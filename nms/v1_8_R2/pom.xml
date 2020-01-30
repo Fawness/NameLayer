@@ -12,7 +12,6 @@
   </parent>
 
   <artifactId>namelayer-nms-v1_8_R2</artifactId>
-  <version>1.0.0</version>
   <packaging>jar</packaging>
 
   <dependencies>
@@ -22,10 +21,10 @@
       <version>1.0.0</version>
     </dependency>
     <dependency>
-      <groupId>org.spigotmc</groupId>
-      <artifactId>spigot</artifactId>
-      <version>1.8.3-R0.1-SNAPSHOT</version>
-      <scope>provided</scope>
+           <groupId>org.spigotmc</groupId>
+           <artifactId>spigot-api</artifactId>
+           <version>1.15.1-R0.1-SNAPSHOT</version>
+           <scope>provided</scope>
     </dependency>
   </dependencies>
 

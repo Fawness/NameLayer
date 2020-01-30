@@ -13,8 +13,6 @@
 
   <artifactId>namelayer-nms-v1_8_R1</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.0</version>
-
   <dependencies>
     <dependency>
       <groupId>vg.civcraft.mc.namelayer</groupId>
@@ -22,10 +20,10 @@
       <version>1.0.0</version>
     </dependency>
     <dependency>
-      <groupId>org.spigotmc</groupId>
-      <artifactId>spigot</artifactId>
-      <version>1.8-R0.1-SNAPSHOT</version>
-      <scope>provided</scope>
+           <groupId>org.spigotmc</groupId>
+           <artifactId>spigot-api</artifactId>
+           <version>1.15.1-R0.1-SNAPSHOT</version>
+           <scope>provided</scope>
     </dependency>
   </dependencies>
 
